@@ -1,0 +1,217 @@
+*{
+    
+    font-family: 'Jura', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.bgD{
+
+    background-color: black;
+}
+
+h1{
+
+font-size: 80px;
+color:white;
+
+
+}
+
+h2, h3, h4, h5, h6{
+
+font-size: 60px;
+color:white;
+
+}
+
+p{
+
+font-size: 20px;
+color:white;
+
+}
+
+.butColor{
+
+    color:white;
+}
+
+p{
+
+color:white;
+
+}
+
+.moon1{
+
+    height: 20px;
+    width:20px;
+   
+}
+
+.write{
+    color:white;
+
+}
+
+.bwhite{
+
+    border:white 4px;
+}
+
+
+/* .navPosition{
+
+
+    position:sticky;
+    top:0px;
+    
+} */
+
+/* header */
+
+
+.bgImg{
+    
+   height: 800px;
+   width: 100%;
+   background-image:radial-gradient(rgba(0, 0, 0, 0.616) 15%, rgba(0, 0, 0, 0.616) 60%), url(./images/moon.jpg);
+   background-position:center;
+   
+}
+
+.align{
+    
+    margin-top: 250px;
+  
+}
+
+
+
+.media1{
+
+    position: relative;
+}
+
+
+
+/* section1 */
+
+
+
+.HW{
+
+    height: 500px;
+    width: 100%;
+}
+
+.rowH{
+
+    height: 300px;
+}
+
+.moon2{
+
+     
+   height: 700px;
+   width: 900px;
+   margin-top: 40px;
+   /* background-image:url(./images/moon2withouth.png); */
+   background-repeat: no-repeat;
+}
+
+
+
+
+.textSize{
+
+    font-size: 17px;
+}
+
+
+.HW2{
+
+    height: 300px;
+    width: 100%;
+}
+
+.CENTER{
+
+
+    margin-top:220px;
+
+
+}
+
+
+.missile{
+
+    height: 1000px;
+}
+
+.worldImage{
+
+
+    height: 600px;
+    width: 100%;
+    background-image: url(./images/worldImage.jpg);
+    background-repeat: no-repeat;
+    position: cover;
+}
+
+
+
+/* media query */
+
+
+
+
+@media screen and (max-width:939px){
+
+    .media1{
+ 
+     width:100%;
+     margin-top: 50px;
+ 
+ 
+    }
+ 
+ 
+
+}
+
+
+
+
+
+@media screen and (max-width:390px){
+
+
+    .media2{
+    
+        width:100%;
+        margin-top:700px;
+        
+    }
+    
+    
+}
+
+    
+
+@media screen and(max-width:390px){
+
+    .moon2{
+     width: 100%;
+    }
+ 
+}
+
+
+@media screen and (max-width:390px){
+
+    .missile{
+
+        display:none;
+    }
+}
